@@ -1,0 +1,27 @@
+{
+  "name": "akpform",
+  "version": "1.0.0",
+  "description": "Recep Tayyip Erduvan",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "emkodelirdi",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {
+  },
+  "build": {
+    "appId": "com.erduvan.app",
+    "productName": "Ak Parti Aday Formu",
+    "target": "nsis",
+    "icon": "C:\\Users\\emirp\\Desktop\\aaa\\icon.png"
+  }  
+}
